@@ -1,0 +1,30 @@
+{
+  "name": "stateless-react-input",
+  "version": "0.0.1",
+  "description": "Provides a managed react-bootstrap input which automatically stores values and validation results in a provided store.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel -d lib/ src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spanias/stateless-react-input"
+  },
+  "keywords": [
+    "authentication",
+    "react",
+    "isomorphic"
+  ],
+  "author": "Digital Optimization Group LLC",
+  "license": "ISC",
+  "devDependencies": {
+      "babel-runtime": "^5.8.25",
+      "babel": "^5.4.7",
+  }
+  "peerDependencies": {
+      "fluxible-addons-react": "^0.1.8",
+      "react": "^0.13.3",
+      "react-bootstrap": "^0.26.1"
+  }
+}
